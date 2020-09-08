@@ -80,7 +80,7 @@ spec:
     spec:
       containers:
         - name: main
-          image: nginx:latest
+          image: twalter/openshift-nginx:latest
 ---
 apiVersion: v1
 kind: Service
